@@ -1,0 +1,69 @@
+@import "../globals.scss";
+@import "../variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Kavoon&display=swap");
+
+.sudokuCellsContainer {
+  border: solid 2px $yellow;
+  padding: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.sudokuCellsRow {
+}
+
+.sudokuCell {
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
+  display: inline-block;
+  border: solid 1px red;
+  padding: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: $red;
+}
+
+.unsolvedCells {
+  border-color: green;
+  text-align: center;
+}
+
+.solvedCells {
+  text-align: center;
+}
+
+.cellsCollection1 {
+  background-color: $cellBGOne;
+}
+
+.cellsCollection2 {
+  background-color: $cellBGTwo;
+}
+
+.cellsCollection3 {
+  background-color: $cellBGThree;
+}
+
+.matrixHeading {
+  font-family: "Kavoon", cursive;
+  color: $blue;
+}
+
+.resetBtn {
+  background-color: $red;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.solveBtn {
+  background-color: $blue;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

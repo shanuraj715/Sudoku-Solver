@@ -1,0 +1,18 @@
+@import "../globals.scss";
+@import "../variables.scss";
+
+.loaderBG {
+  background-color: rgba(34, 47, 62, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 200;
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  span {
+    font-size: 1.4rem;
+    color: $yellow;
+    font-weight: bold;
+  }
+}

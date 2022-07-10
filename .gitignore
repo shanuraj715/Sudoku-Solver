@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+# for react ejection
+/scripts
+/config
+
 # production
 /build
 

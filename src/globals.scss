@@ -1,0 +1,38 @@
+@import "./variables.scss";
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+// Default Scrollbar
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $red;
+  border-radius: 100px;
+}
+
+// Custom Scrollbar
+
+.scrollbarOne::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbarOne::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.scrollbarOne::-webkit-scrollbar-thumb {
+  background-color: #d4aa70;
+  border-radius: 100px;
+}

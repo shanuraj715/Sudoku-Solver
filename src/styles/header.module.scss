@@ -1,0 +1,180 @@
+@import "../globals.scss";
+@import "../variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+.navBG {
+  background-color: $headerBG;
+  padding: 0 !important;
+}
+
+.topbar {
+  padding: 0 0 6px 0;
+  border-bottom: solid 1px #34495e;
+}
+
+.topIcon {
+  color: $headerTopIconColor;
+  font-size: 1.14rem;
+  transition: 0.1s all;
+  -webkit-transition: 0.1s all;
+  -moz-transition: 0.1s all;
+  -ms-transition: 0.1s all;
+  -o-transition: 0.1s all;
+  &:hover {
+    color: $blue;
+  }
+}
+
+.appNameContainer {
+  flex-grow: 1;
+
+  h1 {
+    font-size: 28px;
+    font-family: "Rubik Moonrocks", cursive;
+    cursor: pointer;
+    color: $navLinkColor;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.nav {
+  color: $white;
+  display: flex;
+  gap: 15px;
+
+  .navLink {
+    color: $navLinkColor;
+    position: relative;
+    overflow: hidden;
+    font-family: "Acme", sans-serif;
+
+    &:hover {
+      color: $navLinkColorHover;
+    }
+  }
+}
+
+.burgerBtn {
+  padding: 2px 8px;
+  border-radius: 3px;
+  border: solid 1px $blue;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+}
+
+.burger {
+  color: $yellow;
+  font-size: 1.3rem;
+}
+
+.mobileNav {
+  position: fixed;
+  border-top: solid 2px $blue;
+  background-color: $headerBG;
+  width: 100vw;
+  left: 0;
+  top: 80px;
+  height: 0px;
+  overflow: hidden;
+
+  a {
+    color: $white-light;
+
+    &:hover {
+      color: $yellow;
+      padding-left: 15px;
+    }
+  }
+}
+
+.mobileNavLinkIcon {
+  color: $yellow;
+  filter: drop-shadow(3px 8px 2px rgb(0 0 0 / 0.4));
+  -webkit-filter: drop-shadow(3px 8px 2px rgb(0 0 0 / 0.4));
+}
+
+.mobileNavShow {
+  padding: 30px !important;
+  animation: openMobileNav 0.5s forwards;
+  -webkit-animation: openMobileNav 0.5s forwards;
+  transition: 0s all;
+  -webkit-transition: 0s all;
+  -moz-transition: 0s all;
+  -ms-transition: 0s all;
+  -o-transition: 0s all;
+}
+
+@keyframes openMobileNav {
+  to {
+    height: calc(100vh - 80px);
+    max-height: calc(100vh - 80px);
+  }
+}
+
+.mobileNavHide {
+  animation: closeMobileNav 0.5s forwards;
+  -webkit-animation: closeMobileNav 0.5s forwards;
+
+  * {
+    opacity: 0;
+  }
+}
+
+@keyframes closeMobileNav {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 0;
+    max-height: 0 !important;
+  }
+}
+
+// ICONS CSS
+
+.githubIcon {
+  &:hover {
+    color: $white;
+  }
+}
+
+.linkedIcon {
+  &:hover {
+    color: #0077b5;
+  }
+}
+
+.facebookIcon {
+  &:hover {
+    color: rgba(46, 134, 222, 1);
+  }
+}
+
+.twitterIcon {
+  &:hover {
+    color: #0abde3;
+  }
+}
+
+.instagramIcon {
+  &:hover {
+    color: #e1306c;
+  }
+}
+
+.websiteIcon {
+  &:hover {
+    color: #00d2d3;
+  }
+}
+
+.emailIcon {
+  &:hover {
+    color: rgba(238, 82, 83, 1);
+  }
+}
