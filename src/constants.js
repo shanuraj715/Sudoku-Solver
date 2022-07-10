@@ -7,6 +7,14 @@ export const TOP_NAV_LINKS = [
     { label: 'instagram', url: "https://instagram.com/shanu_the_web_dev/" },
     { label: 'facebook', url: "https://facebook.com/shanuraj715" },
 ]
+export const NAVBAR_LINKS = [
+    { label: "Home", url: "/", iconIdentifier: "home" },
+    { label: "Quiz", url: "/quiz", iconIdentifier: "quiz" },
+    { label: "Sudoku", url: "/solve", iconIdentifier: "sudoku" },
+    { label: "API", url: "/api", iconIdentifier: "api" },
+    { label: "How To Use", url: "/how-to-use", iconIdentifier: "howtouse" },
+    { label: "Developer", url: "https://shanuthewebdev.in", iconIdentifier: "developer", type: 'external' },
+]
 
 export const APP_META = {
     name: "Sudoku Solver",
@@ -15,13 +23,6 @@ export const APP_META = {
     path: '/', // subdirectory
 }
 
-export const NAVBAR_LINKS = [
-    { label: "Home", url: "/", iconIdentifier: "home" },
-    { label: "Sudoku", url: "/sudoku", iconIdentifier: "sudoku" },
-    { label: "API", url: "/api", iconIdentifier: "api" },
-    { label: "How To Use", url: "/how-to-use", iconIdentifier: "howtouse" },
-    { label: "Developer", url: "https://shanuthewebdev.in", iconIdentifier: "developer", type: 'external' },
-]
 
 export const SCREEN_SIZES = {
     MOBILE_WIDTH: 576,

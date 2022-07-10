@@ -7,7 +7,7 @@ import { APP_META } from '../../constants'
 import { ErrorBoundary } from 'react-error-boundary'
 
 function MainLayout(props) {
-    const { children } = props
+    const { children, onContextMenu } = props
 
     const ErrorFallback = ({ error, resetErrorBoundary }) => {
         return <div role="alert">

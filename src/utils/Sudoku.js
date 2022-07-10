@@ -1,7 +1,7 @@
 class Sudoku {
     // Sudoku Class to hold the board and related functions
     constructor(board) {
-        this.board = board
+        this.board = [...board]
     }
 
     findEmptyCell() {

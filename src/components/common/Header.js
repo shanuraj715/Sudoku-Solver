@@ -6,7 +6,7 @@ import {
   HouseFill as Home, GearFill as Api, QuestionCircleFill as HowToUse,
   PersonHearts as Developer, EnvelopeFill,
   Github, Linkedin, Facebook, Twitter,
-  Instagram, Globe as BootstrapLink, List, Boxes
+  Instagram, Globe as BootstrapLink, List, Boxes, PuzzleFill as Quiz
 } from 'react-bootstrap-icons';
 import { TOP_NAV_LINKS, APP_META, NAVBAR_LINKS } from '../../constants'
 import getDevice from '../../utils/getDevice'
@@ -57,7 +57,8 @@ function Header() {
     home: <Home className={styles.mobileNavLinkIcon} />,
     api: <Api className={styles.mobileNavLinkIcon} />,
     howtouse: <HowToUse className={styles.mobileNavLinkIcon} />,
-    developer: <Developer className={styles.mobileNavLinkIcon} />
+    developer: <Developer className={styles.mobileNavLinkIcon} />,
+    quiz: <Quiz className={styles.mobileNavLinkIcon} />
   }
 
   return (
