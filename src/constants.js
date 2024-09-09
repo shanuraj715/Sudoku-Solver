@@ -18,8 +18,8 @@ export const APP_META = {
 export const NAVBAR_LINKS = [
     { label: "Home", url: "/", iconIdentifier: "home" },
     { label: "Sudoku", url: "/sudoku", iconIdentifier: "sudoku" },
-    { label: "API", url: "/api", iconIdentifier: "api" },
-    { label: "How To Use", url: "/how-to-use", iconIdentifier: "howtouse" },
+    // { label: "API", url: "/api", iconIdentifier: "api" },
+    // { label: "How To Use", url: "/how-to-use", iconIdentifier: "howtouse" },
     { label: "Developer", url: "https://shanuthewebdev.in", iconIdentifier: "developer", type: 'external' },
 ]
 
@@ -41,18 +41,18 @@ export const PAGES = [
         description: "Create your own 9x9 sudoku and get your answer within seconds.",
         path: '/sudoku'
     },
-    {
-        label: 'api',
-        title: ` | ${APP_META.name}`,
-        description: "",
-        path: '/'
-    },
-    {
-        label: 'howToUse',
-        title: ` | ${APP_META.name}`,
-        description: "",
-        path: '/'
-    },
+    // {
+    //     label: 'api',
+    //     title: ` | ${APP_META.name}`,
+    //     description: "",
+    //     path: '/'
+    // },
+    // {
+    //     label: 'howToUse',
+    //     title: ` | ${APP_META.name}`,
+    //     description: "",
+    //     path: '/'
+    // },
     {
         label: 'Developer',
         title: ` | ${APP_META.name}`,
