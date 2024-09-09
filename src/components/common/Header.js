@@ -5,7 +5,7 @@ import Hyperlink from '../common/Hyperlink'
 import {
   HouseFill as Home, GearFill as Api, QuestionCircleFill as HowToUse,
   PersonHearts as Developer, EnvelopeFill,
-  Github, Linkedin, Facebook, Twitter,
+  Github, Linkedin, Facebook, TwitterX,
   Instagram, Globe as BootstrapLink, List, Boxes
 } from 'react-bootstrap-icons';
 import { TOP_NAV_LINKS, APP_META, NAVBAR_LINKS } from '../../constants'
@@ -47,7 +47,7 @@ function Header() {
     github: <Github className={`${styles.topIcon} ${styles.githubIcon}`} />,
     linkedin: <Linkedin className={`${styles.topIcon} ${styles.linkedIcon}`} />,
     facebook: <Facebook className={`${styles.topIcon} ${styles.facebookIcon}`} />,
-    twitter: <Twitter className={`${styles.topIcon} ${styles.twitterIcon}`} />,
+    twitter: <TwitterX className={`${styles.topIcon} ${styles.twitterIcon}`} />,
     instagram: <Instagram className={`${styles.topIcon} ${styles.instagramIcon}`} />,
     website: <BootstrapLink className={`${styles.topIcon} ${styles.websiteIcon}`} />,
     email: <EnvelopeFill className={`${styles.topIcon} ${styles.emailIcon}`} />
