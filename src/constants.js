@@ -3,7 +3,7 @@ export const TOP_NAV_LINKS = [
     { label: 'github', url: "https://github.com/shanuraj715" },
     { label: 'linkedin', url: "https://linkedin.com/in/shanu-raj-094807148/" },
     { label: 'twitter', url: "https://twitter.com/shanuraj715" },
-    { label: 'email', url: "mailto://shanuraj714@gmail.com" },
+    { label: 'email', url: "mailto://shanuraj715@gmail.com" },
     { label: 'instagram', url: "https://instagram.com/shanu_the_web_dev/" },
     { label: 'facebook', url: "https://facebook.com/shanuraj715" },
 ]
