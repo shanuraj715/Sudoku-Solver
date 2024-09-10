@@ -1,10 +1,12 @@
+<img width="935" alt="Screenshot 2024-09-10 at 11 58 57 AM" src="https://github.com/user-attachments/assets/51724c68-0aae-43b9-8d7b-b1e10286e70b">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Live Demo
 
-[https://ss.shanuthewebdev.in](https://ss.shanuthewebdev.in)
+[https://ss.shanuthewebdev.in](https://ss.shanuthewebdev.in){:target="_blank" rel="noopener"}
 
 ## Available Scripts
 
